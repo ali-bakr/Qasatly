@@ -1,2 +1,2 @@
 # Qasatly
-in financial app manage monthly clients debts data   
+an financial app manage monthly clients debts data   
