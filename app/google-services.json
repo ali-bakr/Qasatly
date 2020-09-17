@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921662157455",
+    "firebase_url": "https://qasatli.firebaseio.com",
+    "project_id": "qasatli",
+    "storage_bucket": "qasatli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921662157455:android:b29d33f3e38a64c716b6fa",
+        "android_client_info": {
+          "package_name": "com.aliaboubakr.qasatli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921662157455-v5nml5dooaohrtobghggb3j5uk2kp0c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliaboubakr.qasatli",
+            "certificate_hash": "a3836fccff900584e71935f47c491520c0ec7d34"
+          }
+        },
+        {
+          "client_id": "921662157455-5lns79a3tnpmquq91b08fbaujc5v680a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5EimlOd1fsmT1yUsU_kzay48LnSLJc74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921662157455-5lns79a3tnpmquq91b08fbaujc5v680a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

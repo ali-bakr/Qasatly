@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UpdateUsers">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/hello_blank_fragment"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" >
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/update_user_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:hint="الاسم"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/update_user_adreess_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_home_black_24dp"
+                android:drawableLeft="@drawable/ic_home_black_24dp"
+                android:hint="العنوان"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/update_user_phone_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+                android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+                android:hint="الهاتف "
+                android:inputType="number"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/update_user_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_shopping_cart_black_24dp"
+                android:drawableLeft="@drawable/ic_show_pass_black_24dp"
+                android:hint="السلعة "
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/update_whole_cash_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+                android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                android:inputType="number"
+                android:hint="المبلغ الكلي"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/update_user_cash_paid_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+                android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                android:hint="المقدم المدفوع "
+                android:inputType="number"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/update_user_cash_remaining_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+                android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                android:hint="المبلغ المتبقي"
+                android:inputType="number"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/update_user_monthly_cash_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back_shap3"
+                android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+                android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                android:hint="القسط الشهري"
+                android:inputType="number"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/update_user_add_cash_btn"
+                android:background="@drawable/button_back_shap1"
+                android:text="اضافة قسط"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="@font/cairo_extralight"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/update_user_add_cash_et"
+                android:background="@drawable/button_back_shap3"
+                android:hint="ادخل المبلغ "
+               android:paddingRight="20dp"
+                android:inputType="number"
+                android:textSize="19sp"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_extralight"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-40dp"
+                android:layout_width="200dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/update_user_update_btn"
+        android:text="تحديث"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/cairo_extralight"
+        android:background="@drawable/button_back_shap1"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.FragmentAddUsers"
+    android:layout_marginBottom="50dp"
+    android:background="@color/colorPrimaryDark"
+   >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="50dp"
+        android:paddingBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/hello_blank_fragment"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" >
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <EditText
+        android:id="@+id/add_user_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="الاسم ( ممنوع :'.', '#', '$', '[', or ']')"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/add_user_address_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_home_black_24dp"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:hint="العنوان"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/add_user_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+        android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+        android:hint="الهاتف "
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/add_user_item_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_shopping_cart_black_24dp"
+        android:drawableLeft="@drawable/ic_show_pass_black_24dp"
+        android:hint="السلعة "
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/add_user_whole_cash_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+        android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+        android:inputType="number"
+        android:hint="المبلغ الكلي"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorPrimaryDark" />
+    <EditText
+        android:id="@+id/add_user_cashـpaid_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+        android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+        android:hint="المقدم المدفوع "
+        android:inputType="number"
+        android:fontFamily="@font/cairo_extralight"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/add_user_monthly_cash_et"
+        android:textSize="18sp"
+        android:fontFamily="@font/cairo_extralight"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back_shap3"
+        android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+        android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+        android:hint="القسط الشهري"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+
+</LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/add_user_btn"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/cairo_extralight"
+        android:paddingRight="10dp"
+        android:text="اضف"
+
+        android:textAllCaps="false"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_back_shap1"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
